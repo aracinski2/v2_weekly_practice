@@ -85,10 +85,24 @@
 # end
 
 # 9
-n1 = -1
-n2 = 2
-if n1 < 0 && n2 > 0
-  p 1
+# n1 = -1
+# n2 = 2
+# if n1 < 0 && n2 > 0
+#   p 1
+# else
+#   p 0
+# end
+
+# 10
+n = 10
+if n > 80
+  p 5
+elsif n > 60
+  p 4
+elsif n > 40
+  p 3
+elsif n > 20
+  p 2
 else
-  p 0
+  p 1
 end
