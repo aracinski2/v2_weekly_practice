@@ -67,9 +67,19 @@
 # end
 
 # 7
-number = -1
-if number < 0
-  p 1776
-else
-  p 1779
+# number = -1
+# if number < 0
+#   p 1776
+# else
+#   p 1779
+# end
+
+# 8
+n = 98
+if n == 100
+  p 100
+elsif n == 99
+  p 99
+else 
+  p 0
 end
