@@ -33,6 +33,13 @@
 # p w1.upcase + " " + w2.upcase
 
 # 7
-p "Please enter a word"
-word = gets.chomp
-p word.length
+# p "Please enter a word"
+# word = gets.chomp
+# p word.length
+
+# 8
+p "Please enter a number"
+n = gets.chomp 
+if n.to_i < 0
+  p "That's a negative number"
+end
