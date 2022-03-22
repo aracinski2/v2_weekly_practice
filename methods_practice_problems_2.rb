@@ -22,6 +22,12 @@
 # p word.reverse
 
 # 5
-p "Please enter a number"
-n = gets.chomp
-p n.to_i * 10
+# p "Please enter a number"
+# n = gets.chomp
+# p n.to_i * 10
+
+# 6
+p "Please enter two words"
+w1 = gets.chomp
+w2 = gets.chomp
+p w1.upcase + " " + w2.upcase
