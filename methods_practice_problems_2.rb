@@ -38,8 +38,14 @@
 # p word.length
 
 # 8
-p "Please enter a number"
-n = gets.chomp 
-if n.to_i < 0
-  p "That's a negative number"
-end
+# p "Please enter a number"
+# n = gets.chomp 
+# if n.to_i < 0
+#   p "That's a negative number"
+# end
+
+# 9
+p "Please enter two numbers"
+n1 = gets.chomp
+n2 = gets.chomp
+p n1.to_i * n2.to_i
