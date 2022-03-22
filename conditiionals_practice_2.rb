@@ -58,10 +58,18 @@
 # end
 
 # 6
-x = 10
-y = 9
-if x > 10 || y > 10
-  p 100
+# x = 10
+# y = 9
+# if x > 10 || y > 10
+#   p 100
+# else
+#   p -100
+# end
+
+# 7
+number = -1
+if number < 0
+  p 1776
 else
-  p -100
+  p 1779
 end
