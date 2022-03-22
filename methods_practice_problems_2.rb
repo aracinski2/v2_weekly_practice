@@ -27,7 +27,12 @@
 # p n.to_i * 10
 
 # 6
-p "Please enter two words"
-w1 = gets.chomp
-w2 = gets.chomp
-p w1.upcase + " " + w2.upcase
+# p "Please enter two words"
+# w1 = gets.chomp
+# w2 = gets.chomp
+# p w1.upcase + " " + w2.upcase
+
+# 7
+p "Please enter a word"
+word = gets.chomp
+p word.length
