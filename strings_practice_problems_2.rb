@@ -30,8 +30,17 @@
 # p "My favorite colors are #{c1}, #{c2} and #{c3}"
 
 # 6
-p "Please enter your name"
-name = gets.chomp 
-if name != "Santa"
-  p "You're not Santa"
+# p "Please enter your name"
+# name = gets.chomp 
+# if name != "Santa"
+#   p "You're not Santa"
+# end
+
+# 7
+p "Please enter a password:"
+pass = gets.chomp 
+if pass == "Joshua"
+  p "Shall we play a game"
+else
+  p "access denied"
 end
