@@ -24,7 +24,14 @@
 # p "The " + c1 + " car looks " + c2 + " in this " + c3 + " sky."
 
 # 5
-c1 = "green"
-c2 = "red"
-c3 = "blue"
-p "My favorite colors are #{c1}, #{c2} and #{c3}"
+# c1 = "green"
+# c2 = "red"
+# c3 = "blue"
+# p "My favorite colors are #{c1}, #{c2} and #{c3}"
+
+# 6
+p "Please enter your name"
+name = gets.chomp 
+if name != "Santa"
+  p "You're not Santa"
+end
