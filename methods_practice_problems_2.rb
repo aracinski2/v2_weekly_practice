@@ -17,6 +17,11 @@
 # p n1.to_i + n2.to_i
 
 # 4
-p "Please enter a word"
-word = gets.chomp
-p word.reverse
+# p "Please enter a word"
+# word = gets.chomp
+# p word.reverse
+
+# 5
+p "Please enter a number"
+n = gets.chomp
+p n.to_i * 10
