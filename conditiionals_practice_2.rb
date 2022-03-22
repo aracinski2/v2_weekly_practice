@@ -46,13 +46,22 @@
 # end
 
 # 5
-number = 31
-if number < 10
-  p 9
-elsif number < 20
-  p 19
-elsif number < 30
-  p 29
+# number = 31
+# if number < 10
+#   p 9
+# elsif number < 20
+#   p 19
+# elsif number < 30
+#   p 29
+# else
+#   p -1
+# end
+
+# 6
+x = 10
+y = 9
+if x > 10 || y > 10
+  p 100
 else
-  p -1
+  p -100
 end
