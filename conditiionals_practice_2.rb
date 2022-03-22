@@ -75,11 +75,20 @@
 # end
 
 # 8
-n = 98
-if n == 100
-  p 100
-elsif n == 99
-  p 99
-else 
+# n = 98
+# if n == 100
+#   p 100
+# elsif n == 99
+#   p 99
+# else 
+#   p 0
+# end
+
+# 9
+n1 = -1
+n2 = 2
+if n1 < 0 && n2 > 0
+  p 1
+else
   p 0
 end
