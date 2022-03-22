@@ -36,7 +36,7 @@
 #   p "You're not Santa"
 # end
 
-# 7
+# 9
 p "Please enter a password:"
 pass = gets.chomp 
 if pass == "Joshua"
