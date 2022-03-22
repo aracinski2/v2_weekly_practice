@@ -7,11 +7,27 @@
 # end 
 
 # 2
-number = gets.chomp
-if number.to_i < 10
-  p -1
-elsif number.to_i > 10
-  p 1
-else
+# number = gets.chomp
+# if number.to_i < 10
+#   p -1
+# elsif number.to_i > 10
+#   p 1
+# else
+#   p 0
+# end
+
+# 3
+x = 11
+y = 11
+if x >= 10 && y >= 10
   p 0
+else
+  p 1
 end
+
+# array = [1,2]
+# index = 0
+# while index < array.length
+#   if array[index] >= 10
+#     p 0
+# end
