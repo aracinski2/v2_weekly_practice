@@ -18,7 +18,13 @@
 # end
 
 # 4
+# c1 = "green"
+# c2 = "red"
+# c3 = "blue"
+# p "The " + c1 + " car looks " + c2 + " in this " + c3 + " sky."
+
+# 5
 c1 = "green"
 c2 = "red"
 c3 = "blue"
-p "The " + c1 + " car looks " + c2 + " in this " + c3 + " sky."
+p "My favorite colors are #{c1}, #{c2} and #{c3}"
