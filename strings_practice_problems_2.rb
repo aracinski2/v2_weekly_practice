@@ -37,10 +37,10 @@
 # end
 
 # 9
-p "Please enter a password:"
-pass = gets.chomp 
-if pass == "Joshua"
-  p "Shall we play a game"
-else
-  p "access denied"
-end
+# p "Please enter a password:"
+# pass = gets.chomp 
+# if pass == "Joshua"
+#   p "Shall we play a game"
+# else
+#   p "access denied"
+# end
