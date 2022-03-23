@@ -31,9 +31,14 @@
 # p array
 
 # 6
-names = ["Alex", "Jeff", "Bill"]
-index = 0
-while index < names.length
-  p names[index]
-  index += 1
-end
+# names = ["Alex", "Jeff", "Bill"]
+# index = 0
+# while index < names.length
+#   p names[index]
+#   index += 1
+# end
+
+# 7
+array = ["bloop", "morph"]
+array << "tame"
+p array
