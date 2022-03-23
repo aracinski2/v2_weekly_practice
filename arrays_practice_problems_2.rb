@@ -10,9 +10,16 @@
 # p array
 
 # 3
-array = [1, 2, 3, 4, 5]
-index = 0
-while index < array.length
-  p array[index]
-  index += 1
-end
+# array = [1, 2, 3, 4, 5]
+# index = 0
+# while index < array.length
+#   p array[index]
+#   index += 1
+# end
+
+# 4
+array = [1]
+array << 2
+array << 3
+array << 4
+p array
