@@ -44,8 +44,15 @@
 # end
 
 # 7
-n = 50
-while n <= 70
-  p n
+# n = 50
+# while n <= 70
+#   p n
+#   n += 1
+# end
+
+# 8
+n = 1
+while n <= 144
+  p "Around the world"
   n += 1
 end
