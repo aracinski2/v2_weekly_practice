@@ -30,6 +30,15 @@
 # end
 
 # 5
-10.times do
-  p 9000
+# 10.times do
+#   p 9000
+# end
+
+# 6
+while true
+  p "Please enter a number"
+  n = gets.chomp
+  if n.to_i > 10
+    break
+  end
 end
