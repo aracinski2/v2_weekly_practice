@@ -58,10 +58,17 @@
 # end
 
 # 9
-while true
-  p "Please enter a word"
-  word = gets.chomp
-  if word.length > 5
-    break
-  end
+# while true
+#   p "Please enter a word"
+#   word = gets.chomp
+#   if word.length > 5
+#     break
+#   end
+# end
+
+# 10
+even = 2
+while even <= 40
+  p even
+  even += 2
 end
