@@ -25,7 +25,15 @@
 # p array
 
 # 5
-array = ["trip", "blip", "grip"]
-last = array.length - 1
-array[last] = array[last].upcase
-p array
+# array = ["trip", "blip", "grip"]
+# last = array.length - 1
+# array[last] = array[last].upcase
+# p array
+
+# 6
+names = ["Alex", "Jeff", "Bill"]
+index = 0
+while index < names.length
+  p names[index]
+  index += 1
+end
