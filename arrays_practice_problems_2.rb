@@ -44,6 +44,14 @@
 # p array
 
 # 8
-numbers = [1, 2, 3, 4, 5]
-numbers[0] = numbers[0] * 10
-p numbers
+# numbers = [1, 2, 3, 4, 5]
+# numbers[0] = numbers[0] * 10
+# p numbers
+
+# 9
+numbers = [12, 32]
+i = 0
+while i < numbers.length
+  p numbers[i]
+  i += 1
+end
