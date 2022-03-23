@@ -23,8 +23,13 @@
 # end
 
 # 4
-n = 0
-while n < 101
-  p n
-  n += 5
+# n = 0
+# while n < 101
+#   p n
+#   n += 5
+# end
+
+# 5
+10.times do
+  p 9000
 end
