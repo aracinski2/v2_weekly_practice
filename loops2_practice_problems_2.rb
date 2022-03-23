@@ -35,10 +35,17 @@
 # end
 
 # 6
-while true
-  p "Please enter a number"
-  n = gets.chomp
-  if n.to_i > 10
-    break
-  end
+# while true
+#   p "Please enter a number"
+#   n = gets.chomp
+#   if n.to_i > 10
+#     break
+#   end
+# end
+
+# 7
+n = 50
+while n <= 70
+  p n
+  n += 1
 end
