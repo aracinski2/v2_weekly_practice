@@ -39,6 +39,11 @@
 # end
 
 # 7
-array = ["bloop", "morph"]
-array << "tame"
-p array
+# array = ["bloop", "morph"]
+# array << "tame"
+# p array
+
+# 8
+numbers = [1, 2, 3, 4, 5]
+numbers[0] = numbers[0] * 10
+p numbers
