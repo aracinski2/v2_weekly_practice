@@ -13,11 +13,18 @@
 # end
 
 # 3
-i = 0
-while i < 1
-  p "Please enter a word"
-  word = gets.chomp
-  if word == "stop"
-    i += 1
-  end
+# i = 0
+# while i < 1
+#   p "Please enter a word"
+#   word = gets.chomp
+#   if word == "stop"
+#     i += 1
+#   end
+# end
+
+# 4
+n = 0
+while n < 101
+  p n
+  n += 5
 end
