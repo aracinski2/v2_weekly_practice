@@ -51,8 +51,17 @@
 # end
 
 # 8
-n = 1
-while n <= 144
-  p "Around the world"
-  n += 1
+# n = 1
+# while n <= 144
+#   p "Around the world"
+#   n += 1
+# end
+
+# 9
+while true
+  p "Please enter a word"
+  word = gets.chomp
+  if word.length > 5
+    break
+  end
 end
