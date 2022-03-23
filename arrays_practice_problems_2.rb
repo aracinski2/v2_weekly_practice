@@ -18,8 +18,14 @@
 # end
 
 # 4
-array = [1]
-array << 2
-array << 3
-array << 4
+# array = [1]
+# array << 2
+# array << 3
+# array << 4
+# p array
+
+# 5
+array = ["trip", "blip", "grip"]
+last = array.length - 1
+array[last] = array[last].upcase
 p array
