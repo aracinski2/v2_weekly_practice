@@ -49,9 +49,9 @@
 # p numbers
 
 # 9
-numbers = [12, 32]
-i = 0
-while i < numbers.length
-  p numbers[i]
-  i += 1
-end
+# numbers = [12, 32]
+# i = 0
+# while i < numbers.length
+#   p numbers[i]
+#   i += 1
+# end
