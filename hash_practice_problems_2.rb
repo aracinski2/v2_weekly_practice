@@ -20,13 +20,30 @@
 # p menu
 
 # 4
-book = {
-  "title" => "Harry Potter",
-  "author" => "JK Rowling",
-  "# of pages" => "1023",
-  "language" => "english"
-}
-p book["title"]
-p book["author"]
-p book["# of pages"]
-p book["language"]
+# book = {
+#   "title" => "Harry Potter",
+#   "author" => "JK Rowling",
+#   "# of pages" => "1023",
+#   "language" => "english"
+# }
+# p book["title"]
+# p book["author"]
+# p book["# of pages"]
+# p book["language"]
+
+# 5
+books = [
+  {
+    "title" => "Harry Potter",
+    "author" => "JK Rowling"
+  },
+  {
+    "title" => "Game of Thrones",
+    "author" => "George RR"
+  },
+  {
+    "title" => "The Witcher",
+    "author" => "Andrzej"
+  }
+]
+p books[2]["author"]
