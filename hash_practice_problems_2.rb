@@ -54,7 +54,11 @@
 # p hash
 
 # 7
-hash = {"brand" => "Apple", "model" => "Macbook", "year" => "2020"}
-p hash["brand"]
-p hash["model"]
-p hash["year"]
+# hash = {"brand" => "Apple", "model" => "Macbook", "year" => "2020"}
+# p hash["brand"]
+# p hash["model"]
+# p hash["year"]
+
+# 8
+laptops = [{"brand" => "Apple", "model" => "Macbook"}, {"brand" => "Lenovo", "model" => "Ideapad"}, {"brand" => "Alienware", "model" => "MX15"}]
+p laptops[1]["model"]
