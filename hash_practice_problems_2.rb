@@ -49,6 +49,12 @@
 # p books[2]["author"]
 
 # 6
-hash = {"Illinois" => "Springfield", "Idaho" => "Boise", "Michigan" => "Lansing"}
-hash["Iowa"] = "De Moyne"
-p hash
+# hash = {"Illinois" => "Springfield", "Idaho" => "Boise", "Michigan" => "Lansing"}
+# hash["Iowa"] = "De Moyne"
+# p hash
+
+# 7
+hash = {"brand" => "Apple", "model" => "Macbook", "year" => "2020"}
+p hash["brand"]
+p hash["model"]
+p hash["year"]
