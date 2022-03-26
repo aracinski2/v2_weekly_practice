@@ -32,18 +32,23 @@
 # p book["language"]
 
 # 5
-books = [
-  {
-    "title" => "Harry Potter",
-    "author" => "JK Rowling"
-  },
-  {
-    "title" => "Game of Thrones",
-    "author" => "George RR"
-  },
-  {
-    "title" => "The Witcher",
-    "author" => "Andrzej"
-  }
-]
-p books[2]["author"]
+# books = [
+#   {
+#     "title" => "Harry Potter",
+#     "author" => "JK Rowling"
+#   },
+#   {
+#     "title" => "Game of Thrones",
+#     "author" => "George RR"
+#   },
+#   {
+#     "title" => "The Witcher",
+#     "author" => "Andrzej"
+#   }
+# ]
+# p books[2]["author"]
+
+# 6
+hash = {"Illinois" => "Springfield", "Idaho" => "Boise", "Michigan" => "Lansing"}
+hash["Iowa"] = "De Moyne"
+p hash
