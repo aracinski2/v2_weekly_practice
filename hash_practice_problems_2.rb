@@ -64,6 +64,12 @@
 # p laptops[1]["model"]
 
 # 9
-words = {"food" => "Something that is edible", "liar" => "someone who is not truthful"}
-words["far"] = "something that is not close"
-p words
+# words = {"food" => "Something that is edible", "liar" => "someone who is not truthful"}
+# words["far"] = "something that is not close"
+# p words
+
+# 10
+shirt = {"brand" => "Nike", "color" => "black", "size" => "medium"}
+p shirt["brand"]
+p shirt["color"]
+p shirt["size"]
