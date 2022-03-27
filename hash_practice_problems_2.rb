@@ -60,5 +60,10 @@
 # p hash["year"]
 
 # 8
-laptops = [{"brand" => "Apple", "model" => "Macbook"}, {"brand" => "Lenovo", "model" => "Ideapad"}, {"brand" => "Alienware", "model" => "MX15"}]
-p laptops[1]["model"]
+# laptops = [{"brand" => "Apple", "model" => "Macbook"}, {"brand" => "Lenovo", "model" => "Ideapad"}, {"brand" => "Alienware", "model" => "MX15"}]
+# p laptops[1]["model"]
+
+# 9
+words = {"food" => "Something that is edible", "liar" => "someone who is not truthful"}
+words["far"] = "something that is not close"
+p words
