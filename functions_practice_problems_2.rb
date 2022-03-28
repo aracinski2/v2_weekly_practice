@@ -5,7 +5,13 @@
 # p double(8)
 
 # 2
-def capital(word)
-  return word.upcase
+# def capital(word)
+#   return word.upcase
+# end
+# p capital("loud")
+
+# 3
+def difference(n1, n2)
+  return n1 - n2
 end
-p capital("loud")
+p difference(7,2)
