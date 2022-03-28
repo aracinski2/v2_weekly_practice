@@ -23,7 +23,13 @@
 # p squared(8)
 
 # 5
-def first_letter(string)
-  return string[0]
+# def first_letter(string)
+#   return string[0]
+# end
+# p first_letter("This is it")
+
+# 6
+def combine_strings(string1, string2, string3)
+  return "#{string1} #{string2} #{string3}"
 end
-p first_letter("This is it")
+p combine_strings("This", "seems", "sketchy")
