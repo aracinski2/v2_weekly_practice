@@ -29,7 +29,19 @@
 # p first_letter("This is it")
 
 # 6
-def combine_strings(string1, string2, string3)
-  return "#{string1} #{string2} #{string3}"
+# def combine_strings(string1, string2, string3)
+#   return "#{string1} #{string2} #{string3}"
+# end
+# p combine_strings("This", "seems", "sketchy")
+
+# 7
+# def convert_to_string(number)
+#   return number.to_s
+# end
+# p convert_to_string(101)
+
+# 8
+def multiples(string)
+  return string * 5
 end
-p combine_strings("This", "seems", "sketchy")
+p multiples("cool")
