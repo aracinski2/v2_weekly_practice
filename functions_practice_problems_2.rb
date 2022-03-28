@@ -11,7 +11,13 @@
 # p capital("loud")
 
 # 3
-def difference(n1, n2)
-  return n1 - n2
+# def difference(n1, n2)
+#   return n1 - n2
+# end
+# p difference(7,2)
+
+# 4
+def squared(number)
+  return number * number
 end
-p difference(7,2)
+p squared(8)
