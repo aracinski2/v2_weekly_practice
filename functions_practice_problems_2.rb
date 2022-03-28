@@ -41,7 +41,13 @@
 # p convert_to_string(101)
 
 # 8
-def multiples(string)
-  return string * 5
+# def multiples(string)
+#   return string * 5
+# end
+# p multiples("cool")
+
+# 9
+def average(number1, number2, number3)
+  return (number1 + number2 + number3) / 3.0
 end
-p multiples("cool")
+p average(6, 4, 7)
