@@ -17,7 +17,13 @@
 # p difference(7,2)
 
 # 4
-def squared(number)
-  return number * number
+# def squared(number)
+#   return number * number
+# end
+# p squared(8)
+
+# 5
+def first_letter(string)
+  return string[0]
 end
-p squared(8)
+p first_letter("This is it")
