@@ -47,7 +47,13 @@
 # p multiples("cool")
 
 # 9
-def average(number1, number2, number3)
-  return (number1 + number2 + number3) / 3.0
+# def average(number1, number2, number3)
+#   return (number1 + number2 + number3) / 3.0
+# end
+# p average(6, 4, 7)
+
+# 10
+def number_change(number)
+  return (number * 10) + 30
 end
-p average(6, 4, 7)
+p number_change(10)
