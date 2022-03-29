@@ -70,11 +70,21 @@
 # p half_numbers
 
 # 8
-words = ["hello", "goodbye"]
-letters = []
+# words = ["hello", "goodbye"]
+# letters = []
+# index = 0
+# while index < words.length
+#   letters << words[index][0]
+#   index += 1
+# end
+# p letters
+
+# 9
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+double_age = []
 index = 0
-while index < words.length
-  letters << words[index][0]
+while index < people.length
+  double_age << people[index][:age] * 2
   index += 1
 end
-p letters
+p double_age
