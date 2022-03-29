@@ -60,11 +60,21 @@
 # p ages
 
 # 7
-numbers = [1, 2, 3]
-half_numbers = []
+# numbers = [1, 2, 3]
+# half_numbers = []
+# index = 0
+# while index < numbers.length
+#   half_numbers << numbers[index] / 2.0
+#   index += 1
+# end
+# p half_numbers
+
+# 8
+words = ["hello", "goodbye"]
+letters = []
 index = 0
-while index < numbers.length
-  half_numbers << numbers[index] / 2.0
+while index < words.length
+  letters << words[index][0]
   index += 1
 end
-p half_numbers
+p letters
