@@ -80,11 +80,21 @@
 # p letters
 
 # 9
-people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
-double_age = []
+# people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# double_age = []
+# index = 0
+# while index < people.length
+#   double_age << people[index][:age] * 2
+#   index += 1
+# end
+# p double_age
+
+# 10
+numbers = [1, 2, 3]
 index = 0
-while index < people.length
-  double_age << people[index][:age] * 2
+converted_numbers = []
+while index < numbers.length
+  converted_numbers << numbers[index].to_s
   index += 1
 end
-p double_age
+p converted_numbers
