@@ -50,11 +50,21 @@
 # p length
 
 # 6
-people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
-ages = []
+# people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# ages = []
+# index = 0
+# while index < people.length
+#   ages << people[index][:age]
+#   index += 1
+# end
+# p ages
+
+# 7
+numbers = [1, 2, 3]
+half_numbers = []
 index = 0
-while index < people.length
-  ages << people[index][:age]
+while index < numbers.length
+  half_numbers << numbers[index] / 2.0
   index += 1
 end
-p ages
+p half_numbers
