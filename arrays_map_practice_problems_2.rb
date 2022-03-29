@@ -29,11 +29,22 @@
 # p names
 
 # 4
-numbers = [1, 2, 3]
+# numbers = [1, 2, 3]
+# index = 0
+# new_numbers = []
+# while index < numbers.length
+#   new_numbers << numbers[index] + 7
+#   index += 1
+# end
+# p new_numbers
+
+
+# 5
+strings = ["hello", "goodbye"]
 index = 0
-new_numbers = []
-while index < numbers.length
-  new_numbers << numbers[index] + 7
+length = []
+while index < strings.length
+  length << strings[index].length
   index += 1
 end
-p new_numbers
+p length
