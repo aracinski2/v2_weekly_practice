@@ -1,13 +1,22 @@
 # 1
-# array_1 = [1, 2, 3]
+array_1 = [1, 2, 3]
 # index = 0
-# new_array = []
+new_array = []
 # while index < array_1.length
 #   new_array << array_1[index] * 3
 #   index += 1
 # end
 # p new_array
 
+# array_1.each do |number|
+#   new_array << number * 3
+# end
+# p new_array
+
+array_1.map do |number|
+  new_array << number * 3
+end
+p new_array
 # 2
 # strings = ["hello", "goodbye"]
 # index = 0
@@ -90,11 +99,11 @@
 # p double_age
 
 # 10
-numbers = [1, 2, 3]
-index = 0
-converted_numbers = []
-while index < numbers.length
-  converted_numbers << numbers[index].to_s
-  index += 1
-end
-p converted_numbers
+# numbers = [1, 2, 3]
+# index = 0
+# converted_numbers = []
+# while index < numbers.length
+#   converted_numbers << numbers[index].to_s
+#   index += 1
+# end
+# p converted_numbers
