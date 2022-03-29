@@ -40,11 +40,21 @@
 
 
 # 5
-strings = ["hello", "goodbye"]
+# strings = ["hello", "goodbye"]
+# index = 0
+# length = []
+# while index < strings.length
+#   length << strings[index].length
+#   index += 1
+# end
+# p length
+
+# 6
+people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+ages = []
 index = 0
-length = []
-while index < strings.length
-  length << strings[index].length
+while index < people.length
+  ages << people[index][:age]
   index += 1
 end
-p length
+p ages
