@@ -19,11 +19,21 @@
 # p uppercase_string
 
 # 3
-people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
-names = []
+# people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
+# names = []
+# index = 0
+# while index < people.length
+#   names << people[index][:name]
+#   index += 1
+# end
+# p names
+
+# 4
+numbers = [1, 2, 3]
 index = 0
-while index < people.length
-  names << people[index][:name]
+new_numbers = []
+while index < numbers.length
+  new_numbers << numbers[index] + 7
   index += 1
 end
-p names
+p new_numbers
