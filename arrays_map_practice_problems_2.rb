@@ -13,19 +13,30 @@ new_array = []
 # end
 # p new_array
 
-array_1.map do |number|
-  new_array << number * 3
-end
-p new_array
+# array_1.map do |number|
+#   new_array << number * 3
+# end
+# p new_array
+
 # 2
-# strings = ["hello", "goodbye"]
+strings = ["hello", "goodbye"]
 # index = 0
-# uppercase_string = []
+uppercase_string = []
 # while index < strings.length
 #   uppercase_string << strings[index].upcase
 #   index += 1
 # end
 # p uppercase_string
+
+# strings.each do |string|
+#   uppercase_string << string.upcase
+# end
+# p uppercase_string
+
+strings.map do |string|
+  uppercase_string << string.upcase  
+end
+p uppercase_string
 
 # 3
 # people = [{name: "Alice", age: 27}, {name: "Blane", age: 16}]
