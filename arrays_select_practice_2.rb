@@ -19,11 +19,21 @@
 # p w_words
 
 # 3
-items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
-expensive_items = []
-items.each do |item|
-  if item[:price] > 5
-    expensive_items << item
+# items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# expensive_items = []
+# items.each do |item|
+#   if item[:price] > 5
+#     expensive_items << item
+#   end
+# end
+# p expensive_items
+
+# 4
+numbers = [2, 4, 5, 1, 8, 9, 7]
+even_numbers = []
+numbers.each do |number|
+  if number.even? == true
+    even_numbers << number
   end
 end
-p expensive_items
+p even_numbers
