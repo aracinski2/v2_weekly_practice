@@ -39,11 +39,21 @@
 # p even_numbers
 
 # 5
-strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
-short_strings = []
-strings.each do |string|
-  if string.length < 4
-    short_strings << string
+# strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
+# short_strings = []
+# strings.each do |string|
+#   if string.length < 4
+#     short_strings << string
+#   end
+# end
+# p short_strings
+
+# 6
+items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+short_items = []
+items.each do |item|
+  if item[:name].length < 6
+    short_items << item
   end
 end
-p short_strings
+p short_items
