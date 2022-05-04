@@ -29,11 +29,21 @@
 # p expensive_items
 
 # 4
-numbers = [2, 4, 5, 1, 8, 9, 7]
-even_numbers = []
-numbers.each do |number|
-  if number.even? == true
-    even_numbers << number
+# numbers = [2, 4, 5, 1, 8, 9, 7]
+# even_numbers = []
+# numbers.each do |number|
+#   if number.even? == true
+#     even_numbers << number
+#   end
+# end
+# p even_numbers
+
+# 5
+strings = ["a", "man", "a", "plan", "a", "canal", "panama"]
+short_strings = []
+strings.each do |string|
+  if string.length < 4
+    short_strings << string
   end
 end
-p even_numbers
+p short_strings
