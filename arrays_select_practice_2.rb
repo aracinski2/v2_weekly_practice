@@ -79,11 +79,21 @@
 # p b_less_strings
 
 # 9
-items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
-cheap_items = []
-items.each do |item|
-  if item[:price] < 10
-    cheap_items << item
+# items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# cheap_items = []
+# items.each do |item|
+#   if item[:price] < 10
+#     cheap_items << item
+#   end
+# end
+# p cheap_items
+
+# 10
+numbers = [2, 4, 5, 1, 8, 9, 7]
+odd_numbers = []
+numbers.each do |number|
+  if number.odd? == true
+    odd_numbers << number
   end
 end
-p cheap_items
+p odd_numbers
