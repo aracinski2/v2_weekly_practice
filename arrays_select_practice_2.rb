@@ -69,11 +69,21 @@
 # p small_numbers
 
 # 8
-strings = ["big", "little", "good", "bad"]
-b_less_strings = []
-strings.each do |string|
-  if string[0].downcase != "b"
-    b_less_strings << string
+# strings = ["big", "little", "good", "bad"]
+# b_less_strings = []
+# strings.each do |string|
+#   if string[0].downcase != "b"
+#     b_less_strings << string
+#   end
+# end
+# p b_less_strings
+
+# 9
+items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+cheap_items = []
+items.each do |item|
+  if item[:price] < 10
+    cheap_items << item
   end
 end
-p b_less_strings
+p cheap_items
