@@ -59,11 +59,21 @@
 # p short_items
 
 # 7
-numbers = [8, 23, 0, 44, 1980, 3]
-small_numbers = []
-numbers.each do |number|
-  if number < 10
-    small_numbers << number
+# numbers = [8, 23, 0, 44, 1980, 3]
+# small_numbers = []
+# numbers.each do |number|
+#   if number < 10
+#     small_numbers << number
+#   end
+# end
+# p small_numbers
+
+# 8
+strings = ["big", "little", "good", "bad"]
+b_less_strings = []
+strings.each do |string|
+  if string[0].downcase != "b"
+    b_less_strings << string
   end
 end
-p small_numbers
+p b_less_strings
