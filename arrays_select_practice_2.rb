@@ -49,11 +49,21 @@
 # p short_strings
 
 # 6
-items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
-short_items = []
-items.each do |item|
-  if item[:name].length < 6
-    short_items << item
+# items = [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}]
+# short_items = []
+# items.each do |item|
+#   if item[:name].length < 6
+#     short_items << item
+#   end
+# end
+# p short_items
+
+# 7
+numbers = [8, 23, 0, 44, 1980, 3]
+small_numbers = []
+numbers.each do |number|
+  if number < 10
+    small_numbers << number
   end
 end
-p short_items
+p small_numbers
